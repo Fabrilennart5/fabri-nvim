@@ -1,5 +1,7 @@
 # Mi Configuración de Neovim
 
+![personal config](https://pbs.twimg.com/media/GiWCjB5WgAAmXCH?format=jpg&name=large)
+
 Esta es mi configuración personalizada de Neovim, optimizada para desarrollo eficiente y con un enfoque en la productividad. Incluye plugins como `nvim-tree`, `barbar.nvim`, `telescope.nvim`, y más.
 
 ## Características principales
