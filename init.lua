@@ -45,6 +45,9 @@ require 'plugins.toggleterm',
 require 'plugins.codeium',
 require 'plugins.barbar',
 require 'plugins.cursor',
-require 'plugins.flash'
+require 'plugins.flash',
+require 'plugins.code_runner',
+require 'plugins.twilight',
+require 'plugins.diffview',
+require 'plugins.git-messenger'
 })
-

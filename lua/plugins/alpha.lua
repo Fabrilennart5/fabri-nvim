@@ -1,5 +1,3 @@
--- Este plugin configura una pantalla de inicio personalizada para Neovim, 
--- mejorando la experiencia del usuario al abrir el editor.
 return {
   'goolord/alpha-nvim', -- Nombre del plugin que se va a utilizar
   dependencies = {

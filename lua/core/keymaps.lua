@@ -66,12 +66,6 @@ vim.keymap.set('n', '<leader>tp', ':tabp<CR>', opts)
 vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)  
 -- Uso <leader> + lw para activar o desactivar el ajuste de líneas largas según lo necesite
 
--- Mantenerse en modo de indentación al ajustar selección visualmente
-vim.keymap.set('v', '<', '<gv', opts)  
--- Al usar `<` en modo visual, ajusto la indentación hacia la izquierda y mantengo seleccionada el área ajustada
-vim.keymap.set('v', '>', '>gv', opts)  
--- Al usar `>` en modo visual, ajusto la indentación hacia la derecha y mantengo seleccionada el área ajustada
-
 -- Mantener lo último copiado al pegar en modo visual 
 vim.keymap.set('v', 'p', '"_dP', opts)  
 -- Al pegar sobre una selección en modo visual, evito sobrescribir lo que tengo copiado en el registro
